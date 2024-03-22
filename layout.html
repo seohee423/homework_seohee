@@ -12,8 +12,8 @@
     }
 
     .wrapper {
-      border: 4px solid rgb(255, 217, 0);
-      width: 50rem; height: 35rem;
+      border: 4px solid rgb(214, 173, 224);
+      width: 50rem; height: 36.5rem;
       margin: 30px auto;
     }
 
@@ -46,7 +46,7 @@
     } 
 
     .menu1 {
-      background-color: rgb(255, 232, 24);
+      background-color: rgb(255, 208, 0);
       color: rgb(114, 0, 143);
       font-weight: bold;
     }
@@ -73,18 +73,45 @@
 
     #container {
       display: flex;
-
+      flex-direction: row;
+      flex-wrap: wrap;
     }
 
     .article {
       width: 35rem;
-      background-color: rgb(222, 187, 255);
+      background-color: rgb(235, 232, 231);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .imgbox {
+      background-color: white;
+      outline: 2px solid red;
+      margin: 20px;
+      width: 210px; height: 170px;
+
+    }
+
+    img {
+      width: 200px;
+      padding: 5px;
+    }
+    .imgbox p {
+      margin: 0px;
+      text-align: right;
+      padding: 0;
+      padding-right: 7px;
+      color: #999999;
+    }
+
+    .article .text {
+      width: 300px;
     }
 
     .menu2 {
       background-color: rgb(255, 255, 255);
       width: 15rem;
-      flex-flow: column wrap;
+      /* flex-flow: column wrap; */
     }
     .menu2 h3 {
       margin-left: 10px;
@@ -101,6 +128,7 @@
     .menu2 ul li a {
       display: block;
       width: 15rem;; height: 3rem; line-height: 3rem;
+      margin-left: 15px;
     }
     .menu2 ul li:hover a {
       background-color: red;
@@ -139,16 +167,32 @@
     </div>
   
     <div id="container">
+
       <div class="article">
-        <p>이미지</p>
+
+        <div class="imgbox">
+          <img src="./assets/images/청경채.png">
+          <p>Oriental Salad</p>
+
+        </div>
+        <div class="text">
         <h3>채식주의자</h3>
         <p>런던에서의 5주 코스</p>
         <p>5주간 채식주의자 음식에 대해 소개하고 쌀과 국수 요리를 가르친다.</p>
-        <p>이미지</p>
+       </div>
+
+        <div class="imgbox">
+        <img src="./assets/images/소스.png">
+        <p>Teriyaki</p>
+        </div>
+
+        <div class="text">
         <h3>소스 마스터클래스</h3>
         <p>1일 워크샵</p>
         <p>1일 집중 코스에서는 다양한 요리에서 사용할 수 있는 가장 맛있는 소스를 만드는 방법을 살펴본다</p>
+       </div>
       </div>
+
       <div class="menu2">
         <h3>인기요리법</h3>
         <ul>
@@ -160,6 +204,7 @@
         <h3>연락처</h3>
         <p>경기 수원시 팔달구 매산동</p>
       </div>
+
     </div>
    
 
