@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>layout</title>
+  <meta name="description" content="웹 사이트를 만들어 봅시다">
+
+  <!-- og -->
+  <meta property="og:title" content="layout">
+  <meta property="og:url" content="https://seohee423.github.io/homework_seohee/layout.html">
+  <meta property="og:image" content="https://seohee423.github.io/homework_seohee/assets/images/openg.jpg">
+  <meta property="og:description" content="웹사이트 연습 페이지">
+  <meta property="og:type" content="website">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/site.webmanifest">
+
+  <!-- style -->
+  <!-- 초기화 reset.css -->
+  <link rel="stylesheep" href="./minireset.min.css">
+  <!-- 웹폰트 설정 -->
+  <link rel="stylesheet" href="./fonts.css">
+  <!-- 내가 작성한 common, header, footer -->
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="./header.css">
+  <link rel="stylesheet" href="./footer.css">
+  <!-- 내가 작성한 해당 페이지 css -->
+  <link rel="stylesheet" href="./layoutNEW.css">
+
+</head>
+
+
+<body>
+  <div class="container">
+    <!-- header 영역 -->
+    <header>
+      <h1><em>Kim's Kitchen</em> Baking Class</h1>
+      <ul class="global_menu">
+        <li><a href="./layoutNEW.html">홈</a></li>
+        <li><a href="./about.html">소개</a></li>
+        <li><a href="#">메뉴</a></li>
+        <li><a href="#">케이터링</a></li>
+        <li><a href="#">연락처</a></li>
+      </ul>
+    </header>
+
+    <!-- contents 영역 -->
+      <div class="contents">
+
+        <article>
+          <figure>
+            <img src="./assets/images/cookies.jpg" alt="">
+          <figcaption>cookie</figcaption>
+          </figure>
+          <div class="txt_wrapper">
+            <h2>Brownie Cookie</h2>
+            <h3>브라우니 쿠키 레시피</h3>
+            <p>초코 쿠키 레시피 브라우니크랙쿠기 브라우니쿠키 만들기 중력분 쿠키 진한 초콜릿의 맛을 느낄 수 있는 초코쿠키 </p>
+          </div>
+          <figure>
+            <img src="./assets/images/dessert.jpg" alt="">
+            <figcaption>churros</figcaption>
+          </figure>
+          <div class="txt_wrapper">
+            <h2>Chocolate Churros</h2>
+            <h3>초콜릿 츄러스 레시피</h3>
+            <p>츄러스 만드는 법 버터와 계란이 들어가지 않는 쫀득한 츄러스와 초코 딥핑 소스 만들기 </p>
+          </div>
+        </article>
+
+        <aside>
+            <h2>인기요리법</h2>
+            <ul class="recipe">
+              <li><a href="#">딸기 생크림 케이크 🍰</a></li>
+              <li><a href="#">감자 치즈 베이글 🥯</a></li>
+              <li><a href="#">버터 프레첼 🥨</a></li>
+              <li><a href="#">초콜릿 도넛 🍩</a></li>
+            </ul>
+            <h2>주소</h2>
+            <p>경기 수원시 영통구 영통동</p>
+        </aside>
+
+      </div>
+
+      <!-- footer 영역 -->
+      <footer>
+        &copy; Baking recipe : Youtube
+      </footer>
+
+  </div>
+</body>
+</html>

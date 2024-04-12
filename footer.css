@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/********* footer **********/
+footer {
+  background-color: rgb(160, 121, 84);
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 6px 0px 7px;
+}

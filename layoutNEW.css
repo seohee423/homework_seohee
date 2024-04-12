@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/********* contents **********/
+
+.container .contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .contents article {
+  background-color:rgb(247, 242, 234);
+  width: 630px;
+  padding: 20px 30px 0px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .contents article figure {
+  background-color: #fff;
+  border: 3px solid rgb(160, 121, 84);
+  text-align: right;
+  color: rgb(160, 121, 84);
+  font-style: italic;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.container .contents article figure img {
+  width: 250px;
+}
+.container .contents article figure figcaption {
+  margin-top: 8px;
+}
+.container .contents article .txt_wrapper {
+  width: 280px;
+}
+.container .contents article .txt_wrapper h2 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.container .contents article .txt_wrapper h3 {
+  font-weight: 500;
+  color : rgb(131, 0, 0);
+}
+
+.container .contents aside {
+  background-color: rgb(235, 226, 210);
+  width: 250px;
+}
+.container .contents aside h2 {
+  color : rgb(73, 49, 27); 
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 25px 20px;
+}
+.container .contents aside p {
+  text-indent: 20px;
+  margin: 5px 0px;
+}
+.container .contents aside .recipe {
+  background-color: rgb(73, 49, 27); 
+  color: white;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container .contents aside .recipe a {
+  display: block;
+  font-size: 1.1rem;
+  height: 70px;
+  text-indent: 20px;
+  text-align: left;
+  line-height: 70px;
+}
+.container .contents aside .recipe a:hover {
+  background-color: rgb(131, 0, 0);
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/********* header **********/
+.container header h1 {
+  background: rgb(185, 148, 113) url(./assets/images/logo.png) no-repeat 40px 50% / 90px;
+  color: #fff; 
+  font-size: 35px;
+  height: 120px;
+  padding: 40px 0 0 30px;
+  margin: 0;
+  line-height: 1.1;
+  padding-left: 150px;
+}
+
+.container header h1 em {
+  display: block;
+}
+.global_menu {
+  background-color: rgb(160, 121, 84);
+  color: white;
+  font-weight: 500;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container header .global_menu li a {
+  display: block;
+  width: 120px; height: 46px;
+  text-align: center;
+  line-height: 46px;
+}
+.container header .global_menu li:hover a {
+  background-color: rgb(131, 0, 0);
+}
