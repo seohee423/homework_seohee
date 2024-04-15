@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>mqEx3</title>
+  <style>
+  
+  body {
+      margin: 0 auto; 
+      font-size: 2rem; 
+      text-align: center;
+      background-color: plum;
+      padding: 50px;
+    }
+
+    /* 모바일 기준 */
+    .item {
+    background-color: white;
+    width: calc(50% - 10px);
+    height: 100px;
+    line-height: 100px;
+    align-items: center;
+  }
+
+    .box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    }
+
+    .none4 {
+      display: none;
+    }
+
+    /* 701 태블릿 */
+    @media (min-width: 768px) {
+    .item {
+    background-color: white;
+    width: 90%;
+    height: 100px;
+    line-height: 100px;
+    align-items: center;
+    margin: 20px auto;
+  }
+
+    .box {
+    width: 90vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    }
+    .none4 {
+      display: none;
+    }
+    .none10 {
+      display: none;
+    }
+    }
+   
+
+    /* 1200px */
+    @media (min-width: 1200px) {
+    .item {
+    background-color: white;
+    width: 90%;
+    height: 100px;
+    line-height: 100px;
+    align-items: center;
+    margin: 20px auto;
+  }
+
+    .box {
+    width: 90vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    }
+    .item4 {
+      display: none;
+    }
+    .item10 {
+      display: inline;
+      background-color: palevioletred;
+    }
+    }
+
+    /* 1500px */
+    @media (min-width: 1500px) {
+    .item {
+    background-color: white;
+    width: 90%;
+    height: 100px;
+    line-height: 100px;
+    align-items: center;
+    margin: 20px auto;
+  }
+
+    .box {
+    width: 90vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    }
+    .item4 {
+      display: inline;
+    }
+    .item10 {
+      display: inline;
+      background-color: palevioletred;
+    }
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+  <div class="box">
+    <div class="item item1">txt1</div>
+    <div class="item item2">txt2</div>
+    <div class="item item3">txt3</div>
+    <div class="item item4 none4">txt4</div>
+    <div class="item item5">txt5</div>
+    <div class="item item6">txt6</div>
+    <div class="item item7">txt7</div>
+    <div class="item item8">txt8</div>
+    <div class="item item9">txt9</div>
+    <div class="item item10 none10">txt10</div>
+  </div>
+</body>
+</html>
