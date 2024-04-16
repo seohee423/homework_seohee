@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+/************** container 1 ***************/
+.container1 .img-slide {
+  background-color: rgb(204, 217, 231);
+  height: 1000px;
+  width: 100%;
+  padding-top: 130px;
+}
+.container1 .img-slide .txtbox h4 {
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 6px;
+}
+.container1 .img-slide .txtbox h3 {
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  line-height: 1.3;
+  margin: 25px 0px;
+}
+.container1 .img-slide img {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.container1 .arrow-btn {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+}
+.container1 .arrow-btn img {
+  width: 35px;
+}
+
+.container1 .slide-icon {
+  padding: 20px 0px;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(250%);
+}
+.container1 .slide-icon li img {
+  width: 8px;
+  height: 8px;
+  opacity: 30%;
+}
+.container1 .slide-icon .active {
+  opacity: 100%;
+}
+
+/************** container 2 ***************/
+.container2 {
+  padding: 30px 30px 20px;
+}
+.container2 .txt-box {
+}
+.container2 .txt-box li {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.container2 .txt-box li:last-child {
+  border: none;
+}
+.container2 .txt-box li h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 15px 0px 20px;
+}
+.container2 .txt-box li p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  margin: 0px 0px 15px;
+  color: #333;
+}
+
+/************** container 3 ***************/
+.container3 {}
+.container3 .img-list1 {}
+.container3 .img-list1 .imgbox {
+  overflow: hidden;
+}
+.container3 .img-list1 .imgbox img {
+  width: 100%;
+  margin: 4px 0px;
+}
+/* .container3 .img-list1 .imgbox h3 {
+  background-color: rgba(255, 255, 255, 0.7); 
+  color: rgb(46, 46, 46);
+  width: 100%;
+  height: 200px;
+  opacity: 0;
+  position: absolute;
+  bottom: 100px;
+
+  transition: 1s;
+}
+.container3 .img-list1 .imgbox:hover h3 {
+  opacity: 100%;
+} */
+
+
+/************** container 4 ***************/
+.container4 {
+  padding: 10px 30px 30px;
+}
+.container4 .main-title::after {
+  content: "";
+  display: block;
+  width: 50px; height: 2px;
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.container4 .main-des {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 90px;
+}
+.container4 .img-list2 .imgbox {
+  margin: 20px 0px;
+}
+.container4 .img-list2 .imgbox img {
+  width: 95%;
+}
+.container4 .img-list2 .imgbox .txt-box {
+  margin: 25px 0px 40px;
+}
+.container4 .img-list2 .imgbox .txt-box h4 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.container4 .img-list2 .imgbox .txt-box p {
+  font-size: 16px;
+  font-weight: 300;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/************** container 5 ***************/
+.container5 {
+  padding: 10px 35px 25px ;
+  background-color: #f0f0f0;
+  text-align: left;
+}
+.container5 .main-title {
+  margin-bottom: 20px;
+}
+.container5 .main-des {
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 60px;
+  color: #333;
+}
+.container5 .youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+/************** container 6 ***************/
+.container6 .main-title::after {
+  content: "";
+  display: block;
+  width: 50px; height: 3px;
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.container6 .img-slide {
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.1);
+  margin: 30px 0px;
+  padding: 30px 30px 20px;
+}
+.container6 .img-slide img {
+  width: 100%;
+}
+.container6 .img-slide h4 {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 20px 15px;
+}
+.container6 .img-slide p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #999;
+  margin: 5px 15px;
+}
+
+.container6 .slide-icon {
+  margin: auto;
+  padding: 20px 0px;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.container6 .slide-icon li img {
+  width: 8px;
+  opacity: 50%;
+}
+.container6 .slide-icon .active {
+  opacity: 100%;
+}
+
+
+/************** logo ***************/
+.logo-list {
+  background-color: #eee;
+  width: 100%;
+  height: 520px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.logo-list li img {
+  width: 100px;
+  opacity: 60%;
+}
+
+/************** container 7 ***************/
+.container7 {
+  padding: 10px 30px 0;
+}
+.container7 .business-menu {
+  display: flex;
+}
+.container7 .business-menu li {
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  font-weight: 300;
+  border-bottom: 1px solid #ddd;
+}
+.container7 .business-menu li:hover {
+  border-bottom: 4px solid #ddd;
+}
+.container7 .business-menu .active {
+  border-bottom: 3px solid #000;
+}
+.container7 .business-menu li a {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.container7 .location-kakao {
+  margin-top: 45px;
+}
+.container7 .location-kakao #map {
+  height: 400px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.container7 .info {
+  padding: 30px 0px 80px;
+}
+.container7 .info li {
+  text-align: left;
+  padding: 15px 0px;
+  border-bottom: 1px solid #ddd;
+}
+.container7 .info li:last-child {
+  border-bottom: 1px solid #000;
+}
+.container7 .info li h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.container7 .info li p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #202020;
+}
+
+
+
+
+/************** container 8 ***************/
+.container8 {
+  display: block;
+  position: relative;
+}
+.container8 img {
+  width: 100%;
+  height: 350px;
+}
+.container8 .txt-cover {
+  background-color: rgb(117, 177, 201);
+  opacity: 80%;
+  height: 350px;
+  width: 100%;
+  padding: 30px 45px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+.container8 .txt-cover h3 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.container8 .txt-cover p {
+  display: block;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 100;
+  margin: 25px 0;
+}
+.container8 .txt-cover .contact-btn {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  display: block;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  width: 200px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
