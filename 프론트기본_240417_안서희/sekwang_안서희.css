@@ -76,7 +76,6 @@ header .icon-wrapper a:last-child {
 .section1 .main-wrapper .main-title {
   grid-row: 2 / 3;
   color: #fff;
-  /* padding: 200px 35px 130px; */
   margin: 0px 35px;
 }
 .section1 .main-wrapper .main-title h3 {
@@ -98,8 +97,6 @@ header .icon-wrapper a:last-child {
 
 .section1 .main-wrapper .main-menu {
   grid-row: 3 / 4;
-  /* position: relative;
-  bottom: 0px; */
   color: #fff;
   width: 100%;
   display: flex;
