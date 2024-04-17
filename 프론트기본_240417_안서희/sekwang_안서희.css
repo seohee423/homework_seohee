@@ -92,8 +92,8 @@ header .icon-wrapper a:last-child {
 }
 
 .section1 .main-wrapper .main-menu {
-  position: absolute;
-  bottom: 37%;
+  position: relative;
+  bottom: 0;
   color: #fff;
   width: 100%;
   display: flex;
