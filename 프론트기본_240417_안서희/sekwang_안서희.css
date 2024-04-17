@@ -72,15 +72,15 @@ header .icon-wrapper a:last-child {
 
 .section1 .main-wrapper .main-title {
   color: #fff;
-  padding: 200px 50px 130px;
+  padding: 200px 35px 130px;
 }
 .section1 .main-wrapper .main-title h3 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 300;
   line-height: 1.3;
 }
 .section1 .main-wrapper .main-title p {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 100;
   margin: 10px 0px 30px;
 }
@@ -182,10 +182,12 @@ header .icon-wrapper a:last-child {
   width: 100%;
 }
 .section3 .txt-box {
+  display: flex;
+  flex-direction: column;
   width: calc(100% - 50px);
   height: 170px;
   margin: 0 auto;
-  padding: 20px 25px;
+  padding: 20px;
   border-radius: 0px 25px 0px 0px;
   position: relative;
   bottom: 135px;
@@ -197,13 +199,13 @@ header .icon-wrapper a:last-child {
 }
 .section3 .txt-box p {
   font-size: 14px;
-  margin: 7px 0px;
+  margin: 5px 0px;
   line-height: 1.4;
   font-weight: 300;
 }
 .section3 .txt-box a img {
   width: 60px;
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 /* 견적문의 */
