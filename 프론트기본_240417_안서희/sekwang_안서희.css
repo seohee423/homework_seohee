@@ -67,12 +67,17 @@ header .icon-wrapper a:last-child {
 }
 .section1 .main-wrapper {
   height: 600px;
-  background-color: rgba(29, 31, 53, 0.5); 
+  background-color: rgba(29, 31, 53, 0.5);
+  display: grid;
+  grid-template-rows: 70px 1fr 60px;
+  align-items: center;
 }
 
 .section1 .main-wrapper .main-title {
+  grid-row: 2 / 3;
   color: #fff;
-  padding: 200px 35px 130px;
+  /* padding: 200px 35px 130px; */
+  margin: 0px 35px;
 }
 .section1 .main-wrapper .main-title h3 {
   font-size: 35px;
@@ -92,13 +97,14 @@ header .icon-wrapper a:last-child {
 }
 
 .section1 .main-wrapper .main-menu {
-  position: sticky;
-  bottom: 0px;
+  grid-row: 3 / 4;
+  /* position: relative;
+  bottom: 0px; */
   color: #fff;
   width: 100%;
   display: flex;
-  text-align: center;
   justify-content: space-around;
+  text-align: center;
 }
 .section1 .main-wrapper .main-menu li {
   width: 25%;
@@ -184,9 +190,6 @@ header .icon-wrapper a:last-child {
   width: 100%;
 }
 .section3 .txt-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: calc(100% - 50px);
   height: 170px;
   margin: 0 auto;
@@ -195,18 +198,24 @@ header .icon-wrapper a:last-child {
   position: relative;
   bottom: 135px;
   background-color: #fff;
+  display: grid;
+  grid-template-rows: 30px 1fr 20px;
+  align-items: center;
 }
 .section3 .txt-box h4 {
+  grid-row: 1 / 2;
   font-size: 20px;
   font-weight: 800;
 }
 .section3 .txt-box p {
-  font-size: 14px;
+  grid-row: 2 / 3;
+  font-size: 13px;
   margin: 6px 0px;
   line-height: 1.4;
   font-weight: 300;
 }
 .section3 .txt-box a img {
+  grid-row: 3 / 4;
   width: 60px;
   margin-top: 6px;
 }
