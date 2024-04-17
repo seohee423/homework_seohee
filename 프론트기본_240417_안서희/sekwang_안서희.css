@@ -280,7 +280,8 @@ header .icon-wrapper a:last-child {
 .section5 .information li p {
   font-size: 15px;
   font-weight: 300;
-  margin-left: 10px
+  margin-left: 10px;
+  text-transform: lowercase;
 }
 .section5 #map {
   height: 350px;
