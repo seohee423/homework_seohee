@@ -186,6 +186,7 @@ header .icon-wrapper a:last-child {
 .section3 .txt-box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: calc(100% - 50px);
   height: 170px;
   margin: 0 auto;
@@ -201,13 +202,13 @@ header .icon-wrapper a:last-child {
 }
 .section3 .txt-box p {
   font-size: 14px;
-  margin: 5px 0px;
+  margin: 6px 0px;
   line-height: 1.4;
   font-weight: 300;
 }
 .section3 .txt-box a img {
   width: 60px;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 /* 견적문의 */
@@ -234,6 +235,10 @@ header .icon-wrapper a:last-child {
   font-size: 15px;
   color: #333;
   margin: 25px 0;
+}
+.section4 .menu li:nth-child(2) {
+  border-right: none;
+  border-left: none;
 }
 .section4 .list li {
   border-bottom: 2px dotted #ddd;
