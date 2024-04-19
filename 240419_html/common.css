@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/***** fonts *****/
+
+/* pretendard */
+@import url(../../../assets/styles/pretendard-subset.css);
+
+/* 
+Montserrat, sans-serif 
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+
+/***** css 변수 *****/
+:root {
+  /* 설정 */
+  --font-m-ko: 'pretendard', -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", arial, sans-serif;
+  --font-m-en: 'Montserrat', -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", arial, sans-serif;
+  --font-pc-ko: 'pretendard', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", "Apple SD Gothic Neo", sans-serif;
+
+}
+
+
+/***** Global *****/
+
+/* common */
+.container .schedule .day {
+  background-color: #ddd;
+  width: 95%;
+  height: 770px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+.container .schedule .day h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+.container .schedule .day h2 strong {
+  margin: 0px 10px 0px;
+}
+
+
+
+.container .time {}
+.container .time p {}

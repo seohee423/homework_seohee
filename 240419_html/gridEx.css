@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+
+/* common */
+.container .schedule .day .wrapper {
+  margin: 0 auto;
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid #888888;
+}
+.container .schedule .day .wrapper h4 {
+  font-size: 20px;
+  margin: 30px 15px;
+}
+.container .schedule .day .wrapper p {
+  font-size: 17px;
+  margin: 30px 15px;
+  color: #666;
+}
+
+
+/* 요일별 스케줄 박스 */
+.container .schedule .mon .wrapper {
+  background-color: rgb(165, 230, 255);
+  margin-top: 300px;
+  height: 250px;
+}
+/* 요일별 스케줄 박스 */
+.container .schedule .tues .wrapper {
+  background-color: rgb(255, 192, 218);
+  margin-top: 10px;
+  height: 150px;
+}
+.container .schedule .tues .wrapper:last-child {
+  background-color: rgb(255, 234, 165);
+  margin-top: 100px;
+  height: 250px;
+}
+.container .schedule .wed .wrapper {
+  background-color: rgb(182, 223, 196);
+  margin-top: 100px;
+  height: 150px;
+}
+.container .schedule .wed .wrapper:last-child {
+  background-color: rgb(187, 203, 238);
+  margin-top: 50px;
+  height: 250px;
+}
+.container .schedule .thurs .wrapper {
+  background-color: rgb(221, 155, 155);
+  margin-top: 10px;
+  height: 150px;
+}
+.container .schedule .thurs .wrapper:last-child {
+  background-color: rgb(255, 234, 165);
+  margin-top: 100px;
+  height: 250px;
+}
+
+/* 시간 숨기기 */
+.container .time {
+  display: none;
+}
+.container .time p {
+  font-size: 15px;
+  color: #555;
+}
+
+@media (min-width: 900px) {
+  body {
+    padding: 50px 80px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 1fr;
+  }
+  .container .time {
+    margin: 50px 0;
+    display: grid;
+    grid-row: 1 / 2;
+    height: 90%;
+  }
+
+  .container .schedule {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .container .schedule .day {
+    width: 100%;
+  }
+
+
+
+}
